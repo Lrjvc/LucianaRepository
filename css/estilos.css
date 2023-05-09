@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+nav .logo{
+    height: 80px;
+    width: auto;
+}
+ul{ 
+    padding-top: 50px;
+    text-transform: uppercase;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 35px;
+    font-size: 1.5rem;
+}
+nav a {
+    color:#00334D;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Bitter', serif;
+    
+}
+nav ul li {
+    transition:  300ms ;
+}
+  nav ul li:hover {
+    transform: scale(1.2);
+    color: #FFC300;
+}
+
+/*Primera Seccion*/
+#PrimeraSeccion h1{
+    font-family: 'Bitter', serif;
+}
+#PrimeraSeccion {
+    padding-top: 30px;
+}
+.Cursococina{
+    height: 300px;
+    border-radius: 10px;
+}
+#PrimeraSeccion .one-half.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#PrimeraSeccion h1,
+#PrimeraSeccion p,
+#PrimeraSeccion .boton {
+    text-align: center;
+}
+
+#PrimeraSeccion h1{
+    color: #FFC300;
+    text-shadow: 1px 1px 1px #000000;
+}
+#PrimeraSeccion .boton{
+    transition: 300ms;
+}
+#PrimeraSeccion .boton:hover{
+    background-color: #FFC300;
+}
+#PrimeraSeccion .boton{
+    background-color: #95bfff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+#PrimeraSeccion a{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#PrimeraSeccion .ps1{
+    padding-top: 20px;
+}
+/*fin primera seccion*/
+
+/*Segunda Seccion*/
+#SegundaSeccion{
+    padding-top: 50px;
+}
+.platos{
+    width: 200px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#SegundaSeccion .one-third.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#SegundaSeccion p
+{
+    text-align: center;
+}
+#SegundaSeccion .boton{
+    background-color: #95bfff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+#SegundaSeccion a{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#SegundaSeccion h4{
+    font-family: 'Bitter', serif;
+}
+#SegundaSeccion .boton{
+    transition: 300ms;
+}
+#SegundaSeccion .boton:hover{
+    background-color: #FFC300;
+}
+#SegundaSeccion h4::first-letter{
+    text-shadow: 2px 2px 2px #FFC300;
+}
+/*Fin Segunda Seccion*/
+
+/*Tercera Seccion*/
+#TerceraSeccion{
+    padding-top: 50px;
+}
+#TerceraSeccion .twelve.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#TerceraSeccion p
+{
+    text-align: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: -10px 0;
+    font-weight: 700;
+}
+#TerceraSeccion h3{
+    font-family: 'Bitter', serif;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+#TerceraSeccion span{
+    font-family: 'Bitter', serif;
+    color: #20201e;
+    background: #FFC300;
+    border-radius: 10PX;
+    padding: 3PX;
+}
+#TerceraSeccion .boton{
+    background-color: #95bfff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+#TerceraSeccion .boton{
+    transition: 300ms;
+}
+#TerceraSeccion .boton:hover{
+    background-color: #FFC300;
+}
+#TerceraSeccion a{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.kids{
+    background: url(../img/Cursos\ de\ niños.jpeg) center center no-repeat; 
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*Cuarta Seccion*/
+#CuartaSeccion{
+    padding: 50px;
+}
+#CuartaSeccion .boton{
+    border-radius: 15px;
+    padding: 0 10px;
+    background-color: #95bfff;
+}
+#CuartaSeccion .boton{
+    transition: 300ms;
+}
+#CuartaSeccion .boton:hover{
+    background-color: #FFC300;
+}
+#CuartaSeccion a{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#CuartaSeccion .ps1
+{
+    padding-top: 0px;
+}
+#CuartaSeccion .one-third.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#CuartaSeccion .sb{
+    background: #cae4f1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/*footer*/
+footer{
+    background-color: #73d0ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer img
+{
+    width: 50px;
+    padding-right: 25px;
+}
+footer a{
+    color: black;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.SeccionSlider{
+padding-top: 50px;
+}
+.slider{
+    display: flex;
+    overflow-x: scroll;
+    width: 900px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+}
+
+.slider .items{
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+
+.slider .items:nth-child(1){
+    background: url(../img/zyro-image.png) center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.slider .items:nth-child(2){
+    background: url(../img/slider2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.slider .items:nth-child(3){
+    background: url(../img/Curso2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.slider .items{
+    padding: 0 300px;
+}
+
+.SeccionSlider .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.SeccionSlider h4,
+.SeccionSlider p,
+.SeccionSlider .boton {
+    text-align: center;
+}
+.SeccionSlider .boton{
+    border-radius: 15px;
+    padding: 0 10px;
+    background-color: #95bfff;
+}
+.SeccionSlider .boton{
+    transition: 300ms;
+}
+.SeccionSlider .boton:hover{
+    background-color: #FFC300;
+    text-shadow: 1px 1px 1px #000000;
+}
+.SeccionSlider a{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.SeccionSlider .items h4{
+    font-family: 'Bitter', serif;
+    color: #FFC300;
+    text-shadow: 1px 1px 1px #000000;
+    
+}
+.SeccionSlider .items p{
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
